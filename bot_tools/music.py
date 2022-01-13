@@ -2,8 +2,8 @@ import discord, os, youtube_dl, re
 from urllib import parse, request
 from discord.ext import commands
 
-song_list = []
-global_index = 0
+#song_list = []
+#global_index = 0
 
 class Music(commands.Cog):
     def __init__(self,client):
