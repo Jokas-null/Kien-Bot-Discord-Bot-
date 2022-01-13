@@ -1,6 +1,4 @@
-import os ,discord, youtube_dl
-from discord import client
-from discord.ext.commands import bot, cog
+import os ,discord
 from dotenv import load_dotenv
 from discord.ext import commands
 from bot_tools import music
@@ -13,8 +11,6 @@ cogs = [music]
 
 for i in range(len(cogs)):
     cogs[i].setup(kien)
-
-
 
 @kien.event
 async def on_ready():
